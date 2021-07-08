@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+
+    <title>Javier Portafolio</title>
+
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+
+  </head>
+  <body>
+
+  <a id="buttontop">
+  <i class="fas fa-angle-up"></i>
+  <p>Top</p>
+  </a>
+
+    <div class="container navbar">
+      <header>
+              <div class="lgo"><a href="index.html">
+                 <img src="img/logo.png">
+               </a></div>
+
+      <nav>
+
+              <ul>
+                  <li><a href="#about" class="upc">sobre mi</a></li>
+                  <li><a href="#skills" class="upc">conocimientos</a></li>
+                  <li><a href="#contact" class="upc">contacto</a></li>
+              </ul>
+
+
+      </nav>
+
+    </header>           
+    </div>
+
+
+
+    <div class="contenedor">
+
+    <header-cats>
+
+      <div class="categorias" id="categorias">
+        <a href="#" class="activo">Todos</a>
+        <a href="#">Maquetacion</a>
+        <a href="#">Angular</a>
+        <a href="#">Apps</a>
+      </div>
+
+
+
+    </header-cats>
+
+
+    <section class="grid" id="grid">
+
+
+    <div class="item" 
+         data-categoria="maquetacion"
+         data-etiquetas="html css"
+         data-descripcion="Maquetación realizada con Html Css">
+
+        <div class="item-contenido">
+          <img src="img/pokeinfo.jpg" alt="">
+        </div>
+      </div>
+
+
+    <div class="item" 
+         data-categoria="angular"
+         data-etiquetas="html css"
+         data-descripcion="App realizada con Angular, Javascript y Firebase">
+
+        <div class="item-contenido">
+          <img src="img/gvs.jpg" alt="">
+        </div>
+      </div>
+
+
+    <div class="item" 
+         data-categoria="apps"
+         data-etiquetas="html css"
+         data-descripcion="Api realizada con Laravel, Html Css">
+
+        <div class="item-contenido">
+          <img src="img/inventario.jpg" alt="">
+        </div>
+      </div>
+
+    <div class="item" 
+         data-categoria="apps"
+         data-etiquetas="html css"
+         data-descripcion="Api para Ecommerce realizada con Html Css Nodejs">
+
+        <div class="item-contenido">
+          <img src="img/carrocompras.jpg" alt="">
+        </div>
+      </div>
+
+    <div class="item"
+         data-categoria="apps"
+         data-etiquetas="html css"
+         data-descripcion="Api para ecommerce usando Wordpress, CSS">
+         
+        <div class="item-contenido">
+          <img src="img/lobodepapel.jpg" alt="">
+        </div>     
+      </div>
+
+    <div class="item" 
+         data-categoria="maquetacion"
+         data-etiquetas="html css"
+         data-descripcion="Maquetación realizada con Html Css">
+
+        <div class="item-contenido">
+          <img src="img/cerveza.jpg" alt="">
+        </div>
+      </div>
+
+    <div class="item" 
+         data-categoria="angular"
+         data-etiquetas="html css"
+         data-descripcion="Aplicación web con Angular, Api de Strapi">
+
+        <div class="item-contenido">
+          <img src="img/recetaseasy.jpg" alt="">
+        </div>
+      </div>
+
+    <div class="item" 
+         data-categoria="maquetacion"
+         data-etiquetas="html css"
+         data-descripcion="Maquetación realizada con Html Css">
+
+        <div class="item-contenido">
+          <img src="img/webpage.jpg" alt="">
+        </div>
+      </div>
+
+
+    <div class="item" 
+         data-categoria="maquetacion"
+         data-etiquetas="html css"
+         data-descripcion="Maquetación realizada con Html Css Bootstrap">
+
+        <div class="item-contenido">
+          <img src="img/moldtek.jpg" alt="">
+        </div>
+      </div>
+                         
+
+    <div class="item" 
+         data-categoria="apps"
+         data-etiquetas="html css"
+         data-descripcion="CRUD Utilizando la API de LocalStorage">
+
+        <div class="item-contenido"> 
+          <img src="img/ocompras.jpg" alt="">
+        </div>
+      </div>  
+
+
+
+
+
+
+    </section>   
+
+
+    <section class="overlay" id="overlay">
+      <div class="contenedor-img">
+        <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+        <img src="" alt="">
+      </div>
+      <p class="descripcion"></p>
+    </section>
+
+
+    <div class="details-container">
+
+        <div class="list-container">
+
+            <div class="item">
+                <p class="btn-item">Maquetación Projects details</p>
+                    <div class="item-content">
+
+
+                        <div class="cardc">
+        <span class="project">Poke Info:</span> html, css, js
+
+        <a class="btn btn-primary btn-sm btn-block btn btn-space" href="https://pokeinfo-jf.netlify.app/" target="_blank">Ver Proyecto</a>
+        <a class="btn btn-primary btn-sm btn-block btn btn-space" href="https://github.com/jotafer11/gestorvidasaludable" target="_blank">Ver Código</a>
+                        </div>
+
+
+
+                        <div class="cardc">
+        <span class="project">Landing Page:</span> html, css, js
+        <a class="btn btn-primary btn-sm btn-block btn btn-space" href="https://landingp-lucas.netlify.app/" target="_blank">Ver Proyecto</a>
+        <a class="btn btn-primary btn-sm btn-block btn btn-space" href="https://bitbucket.org/jotafer11/landingpage/src/master/" target="_blank">Ver Código</a>                                
+
+                        </div>
+
+
+
+                        <div class="cardc">
+        <span class="project">Cerveza Corona:</span> html, css, js
+
+        <a class="btn btn-primary btn-sm btn-block btn btn-space" href="https://cerveza-corona-jf.netlify.app" target="_blank">Ver Proyecto</a>
+        <a class="btn btn-primary btn-sm btn-block btn btn-space" href="https://bitbucket.org/jotafer11/cce/src/master/" target="_blank">Ver Código</a>
+
+
+                        </div>
+
+                        <div class="cardc">
+        <span class="project">Moldtek Website:</span> html, css, bootstrap, js
+
+        <a class="btn btn-primary btn-sm btn-block btn btn-space" href="https://moldtek-jf.netlify.app/" target="_blank">Ver Proyecto</a>
+        <a class="btn btn-primary btn-sm btn-block btn btn-space" href="https://bitbucket.org/jotafer11/moldtek-website/src/master/" target="_blank">Ver Código</a>
+
+
+                        </div>                        
+                  
+                    </div>
+            </div>
+
+
+            <div class="item">
+                <p class="btn-item">Front end Apps & API Projects details</p>
+                    <div class="item-content">
+
+
+
+                        <div class="cardc">
+         <span class="project">Gestor Vida Saludable:</span> angular, js, firebase
+
+        <a class="btn btn-primary btn-sm btn-block btn btn-space" href="https://gvs-fireapp.web.app/" target="_blank">Ver Proyecto</a>
+        <a class="btn btn-primary btn-sm btn-block btn btn-space" href="https://github.com/jotafer11/gestorvidasaludable" target="_blank">Ver Código</a>
+                        </div>
+
+                        <div class="cardc">
+          <span class="project">Inventario Bienes:</span> laravel, js, mysql
+ 
+          <a class="btn btn-primary btn-sm btn-block btn btn-space disabled">Ver Proyecto</a>
+          <a class="btn btn-primary btn-sm btn-block btn btn-space" href="https://github.com/jotafer11/INVBienes" target="_blank">Ver Código</a>                             
+         
+                        </div>
+
+                        <div class="cardc">
+          <span class="project">My Fitness Shop:</span> nodejs, js
+          
+        <a class="btn btn-primary btn-sm btn-block btn btn-space disabled">Ver Proyecto</a>
+        <a class="btn btn-primary btn-sm btn-block btn btn-space" href="https://github.com/jotafer11/NodeJS-webstore" target="_blank">Ver Código</a>                                                      
+
+                        </div>                            
+
+
+                        <div class="cardc">
+        <span class="project">Lobo de Papel:</span> wordpress, ecommerce, css
+
+        <a class="btn btn-primary btn-sm btn-block btn btn-space" href="https://lobodepapel.cl/" target="_blank">Ver Proyecto</a>
+        <a class="btn btn-primary btn-sm btn-block btn btn-space disabled">Ver Código</a>                                
+
+                        </div>
+
+                        <div class="cardc">
+        <span class="project">Recetas Easy:</span> angular, strapi, js
+
+        <a class="btn btn-primary btn-sm btn-block btn btn-space disabled">Ver Proyecto</a>
+        <a class="btn btn-primary btn-sm btn-block btn btn-space" href="https://github.com/jotafer11/angular-strapi-recetas" target="_blank">Ver Código</a>                                
+
+                        </div>
+
+                    
+
+                        <div class="cardc">
+        <span class="project">My oCompras App:</span> html, css, js, localstorage
+
+        <a class="btn btn-primary btn-sm btn-block btn btn-space" href="https://my-ocompras.netlify.app" target="_blank">Ver Proyecto</a>
+        <a class="btn btn-primary btn-sm btn-block btn btn-space" href="https://bitbucket.org/jotafer11/ocompras-app/src/master/">Ver Código</a>
+
+
+                        </div>                        
+
+                    </div>
+            </div>            
+        
+            </div>
+
+    </div>
+
+
+  </div>
+  <!-- Fin contenedor -->  
+
+<!-- Back to top button -->
+
+
+  <div class="container about" id="about">
+    <h1>Sobre mí</h1>
+    <div class="about-me-info">
+      <p>Hola! Mi nombre es Javier Fernández. Soy desarrollador web, me gusta dedicarme a mi trabajo , ser bueno en lo que hago y no mentir sobre mis habilidades. Entregar resultados de calidad y clientes satisfechos son mis principales prioridades. Haré todo lo posible para lograr su objetivo, seré un socio tecnológico y un desarrollador.</p>
+    </div>
+    <img src="img/dotted-shape.png" alt="">
+  </div>
+
+
+<div class="container skills" id="skills">
+    <h1>Conocimientos</h1>
+
+
+<section class="grid2" id="grid2">
+
+  <div class="item2">
+          <h2>&nbsp;</h2>
+    <div class="item-contenido">
+        <img src="img/html5.png" alt="">
+    </div>
+  </div>
+
+    <div class="item2">
+            <h2>&nbsp;</h2>
+    <div class="item-contenido">
+        <img src="img/2tec.png" alt="">
+    </div>
+  </div>
+
+
+  <div class="item2">
+            <h2>&nbsp;</h2>
+    <div class="item-contenido">
+        <img src="img/3tec.png" alt="">
+    </div>
+  </div>
+
+  <div class="item2">
+            <h2>&nbsp;</h2>
+    <div class="item-contenido">
+        <img src="img/space.png" alt="">
+    </div>
+  </div>
+
+
+  <div class="item2">
+    <center><h2>Trabajado con:</h2></center>
+    <div class="item-contenido">
+        <img src="img/php.png" alt="">
+    </div>
+  </div>
+
+  <div class="item2">
+    <h2>&nbsp;</h2>
+    <div class="item-contenido">
+        <img src="img/4tec.png" alt="">
+    </div>
+  </div>        
+
+</section>
+
+  </div>
+
+
+
+<div class="container contact" id="contact">
+    <h1>Contacto</h1>
+
+
+<div class="containerf">
+
+
+  <form action="https://formspree.io/jotafer11@gmail.com" method="post">
+
+      <div class="redes-form">
+
+              <a class="icono-social-contacto" href="mailto:jotafer11@gmail.com" target="_blank">
+                <i class="fas fa-envelope-open-text"></i>
+              </a>
+
+              <a class="icono-social-contacto" href="https://jotafer11.github.io" target="_blank">
+               <i class="fa fa-link"></i>
+             </a>
+
+              <a class="icono-social-contacto" href="https://jotafer11.github.io/tecnologias/" target="_blank">
+               <i class="fas fa-blog"></i>
+             </a>
+
+              <a class="icono-social-contacto" href="https://github.com/jotafer11" target="_blank">
+               <i class="fa fa-github"></i>
+             </a>
+
+      </div>
+
+
+
+    <div class="form-field">
+      <input type="text" class="fullname p-3" name="fullname" placeholder="Nombre" required autofoucus>
+    </div>
+    <div class="form-field">
+      <input type="email" class="email p-3" name="email" type="email" placeholder="Email" required>
+    </div>
+    <div class="form-field">
+      <textarea type="message" class="message" name="message" placeholder="Mensaje" required rows="4"></textarea>
+    </div>
+    <div class="form-field btnf">
+      <input type="submit" name="submit" class="submit" value="Enviar">
+    </div>
+  </form>
+</div> 
+
+
+          
+
+</div>         
+
+<footer>
+<p>© Todos los derechos reservados 2021</p>
+</footer>  
+
+
+      
+
+
+
+  <script src="https://unpkg.com/web-animations-js@2.3.2/web-animations.min.js"></script>
+  <script src="https://unpkg.com/muuri@0.8.0/dist/muuri.min.js"></script>
+  <script src="js/main.js"></script>
+
+
+  </body>
+
+
+
+</html>
